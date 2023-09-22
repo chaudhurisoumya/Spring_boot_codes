@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "my.app",
+      "type": "in.ineuron.comp.Company2",
+      "sourceType": "in.ineuron.comp.Company2"
+    },
+    {
+      "name": "org.ineuron",
+      "type": "in.ineuron.comp.Company1",
+      "sourceType": "in.ineuron.comp.Company1"
+    }
+  ],
+  "properties": [
+    {
+      "name": "my.app.location",
+      "type": "java.lang.String",
+      "sourceType": "in.ineuron.comp.Company2"
+    },
+    {
+      "name": "my.app.name",
+      "type": "java.lang.String",
+      "sourceType": "in.ineuron.comp.Company2"
+    },
+    {
+      "name": "my.app.type",
+      "type": "java.lang.String",
+      "sourceType": "in.ineuron.comp.Company2"
+    },
+    {
+      "name": "org.ineuron.location",
+      "type": "java.lang.String",
+      "sourceType": "in.ineuron.comp.Company1"
+    },
+    {
+      "name": "org.ineuron.name",
+      "type": "java.lang.String",
+      "sourceType": "in.ineuron.comp.Company1"
+    },
+    {
+      "name": "org.ineuron.type",
+      "type": "java.lang.String",
+      "sourceType": "in.ineuron.comp.Company1"
+    }
+  ],
+  "hints": []
+}
