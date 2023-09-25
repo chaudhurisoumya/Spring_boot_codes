@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "items.info",
+      "type": "in.ineuron.dependent.ItemsInfo",
+      "sourceType": "in.ineuron.dependent.ItemsInfo"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
