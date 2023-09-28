@@ -18,12 +18,18 @@ public class BootProj14DaoUsingJdbcTemplateDirectMethodsApplication {
 				.run(BootProj14DaoUsingJdbcTemplateDirectMethodsApplication.class, args);
 
 		IStudentMgmtService service = applicationContext.getBean(IStudentMgmtService.class);
-		
-		
-		
-		List<StudentDTO> list = service.fetchStudentByName("sachin","dhoni");
+
+		StudentDTO student = service.fetchStudentByNo(10);
+		System.out.println(student);
+
+		System.out.println();
+
+		List<StudentDTO> list = service.fetchStudentByName("sachin", "kohli");
 		list.forEach(System.out::println);
-	
+		System.out.println();
+
+		service.fetchStudentByCitites("CSK", "LSG", "MI").forEach(System.out::println);
+
 		((ConfigurableApplicationContext) applicationContext).close();
 	}
 }
